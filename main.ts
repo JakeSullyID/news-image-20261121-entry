@@ -1,8 +1,5 @@
 /**
- * Broadsheet News Image Entry Handler
- * 
- * Delivers the compiled broadsheet entry image to the designated output path
- * for the make.fun system. Built using Node 22 native modules.
+ * Delivery helper script for the daily news image artifact.
  */
 
 import { copyFileSync, mkdirSync } from 'node:fs';
